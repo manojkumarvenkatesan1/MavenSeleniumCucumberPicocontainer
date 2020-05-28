@@ -10,3 +10,7 @@ Scenario: Customer place an order by purchasing an item from search
  And select same delivery address
  And select payment method as "check" payment
  And place the order
+ Then verify the order details
+Examples
+ 	|Customer|
+ 	|Manoj	|
