@@ -5,17 +5,18 @@ import java.io.File;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
-import com.vimalselvam.cucumber.listener.Reporter;
+import com.cucumber.listener.Reporter;
 
 import fileReaderManagement.FileReaderManager;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
+
 @CucumberOptions(
- features = "src/test/resources/functionalTests",
- glue= {"stepDefinitions"},
- plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+ features = "src//test//java//testDataResources",
+ glue= {"stepManagement"},
+ plugin = { "pretty:true", "html:target/cucumber-html"},
  monochrome = true
  )
 

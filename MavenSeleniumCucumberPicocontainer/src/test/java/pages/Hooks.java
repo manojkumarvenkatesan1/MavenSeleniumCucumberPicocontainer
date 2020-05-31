@@ -7,8 +7,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.MavenSeleniumCucumberPicocontainer.TextContext;
+import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
-import com.vimalselvam.cucumber.listener.Reporter;
+
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

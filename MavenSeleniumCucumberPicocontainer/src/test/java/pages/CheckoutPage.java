@@ -158,4 +158,18 @@ public class CheckoutPage {
 	 select_County("Delhi");
 	 
 	 }
+	 
+	 //fill_PersonalDetails method with customer parametre- use only during test data retrieval from json
+	 
+	 /*public void fill_PersonalDetails(Customer customer) {
+		 enter_Name(customer.firstName);
+		 enter_LastName(customer.lastName);
+		 enter_Phone(customer.phoneNumber.mob);
+		 enter_Email(customer.emailAddress);
+		 enter_City(customer.address.city);
+		 enter_Address(customer.address.streetAddress);
+		 enter_PostCode(customer.address.postCode);
+		 select_Country(customer.address.country);
+		 select_County(customer.address.county); 
+		 }*/
 }

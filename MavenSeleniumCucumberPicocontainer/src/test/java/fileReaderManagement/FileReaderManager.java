@@ -1,6 +1,7 @@
 package fileReaderManagement;
 
 import configFileManagement.ConfigFileReader;
+import configFileManagement.JsonDataReader;
 
 public class FileReaderManager {
 	
@@ -13,7 +14,7 @@ public class FileReaderManager {
 		 //FileReaderManager class maintains a static reference to its own instance and returns that reference from the static getInstance() method.
 		 private static FileReaderManager fileReaderManager = new FileReaderManager();
 		 
-		 
+		 private static JsonDataReader jsonDataReader;
 		 private static ConfigFileReader configFileReader;
 		 
 		 private FileReaderManager() {
@@ -31,4 +32,8 @@ public class FileReaderManager {
 		 public ConfigFileReader getConfigReader() {
 		 return (configFileReader == null) ? new ConfigFileReader() : configFileReader;
 		 }
+		 
+		 public JsonDataReader getJsonReader(){
+			 return (jsonDataReader == null) ? new JsonDataReader() : jsonDataReader;
+		}
 }
