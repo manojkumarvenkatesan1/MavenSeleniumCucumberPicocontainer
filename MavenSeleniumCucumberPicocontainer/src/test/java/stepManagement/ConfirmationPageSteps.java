@@ -5,7 +5,7 @@ import org.junit.Assert;
 import com.MavenSeleniumCucumberPicocontainer.Context;
 import com.MavenSeleniumCucumberPicocontainer.TextContext;
 
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.Then;
 import pages.ConfirmationPage;
 
 public class ConfirmationPageSteps {

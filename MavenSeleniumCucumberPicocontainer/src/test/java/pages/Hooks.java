@@ -10,10 +10,10 @@ import com.MavenSeleniumCucumberPicocontainer.TextContext;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 
 public class Hooks {
 	TextContext testContext;

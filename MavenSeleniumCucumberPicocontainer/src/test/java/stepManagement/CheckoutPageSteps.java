@@ -2,8 +2,9 @@ package stepManagement;
 
 import com.MavenSeleniumCucumberPicocontainer.TextContext;
 
+import cucumber.api.java.en.When;
 import fileReaderManagement.FileReaderManager;
-import io.cucumber.java.en.When;
+
 import pages.CheckoutPage;
 import pojoJavaClasses.Customer;
 
