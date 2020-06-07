@@ -29,9 +29,9 @@
       	</plugins>
 </build>
   	
-  <dependencies>
+ <dependencies>
   
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium.core/selenium-core -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium.core/selenium-core -->
 <dependency>
     <groupId>org.seleniumhq.selenium.core</groupId>
     <artifactId>selenium-core</artifactId>
@@ -75,9 +75,9 @@
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <dependency>
-    <groupId>io.cucumber</groupId>
+    <groupId>info.cukes</groupId>
     <artifactId>cucumber-testng</artifactId>
-    <version>5.7.0</version>
+    <version>1.2.5</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
@@ -115,11 +115,6 @@
  
  
  
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>4.0.0</version>
-</dependency>
 
 	
  </dependencies>
